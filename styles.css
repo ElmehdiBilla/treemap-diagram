@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto' , sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#links{
+    margin: 10px 0 20px 0;
+}
+.tooltip{
+    position:absolute;
+    background-color:#eeb;
+    color:#333;
+    padding: 10px;
+    font-size:0.8rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:4px;
+    text-align: center;
+    pointer-events:none;
+    visibility:hidden;
+    transition:0.4s;
+    opacity: 0.9;
+}

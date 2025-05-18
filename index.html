@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>treemap-diagram</title>
 </head>
 <body>
+
+    <main>
+        <div id="links">
+            <a href="?data=videogames">Video Game Data Set</a> |
+            <a href="?data=movies">Movies Data Set</a> |
+            <a href="?data=kickstarter">Kickstarter Data Set</a>
+        </div>
+
+        <h1 id="title">Video Game Sales</h1>
+        <p id="description">Top 100 Most Sold Video Games Grouped by Platform</p>
+        <svg id="tree-map" width="960" height="570">
+        </svg>
+        <svg id="legend" width="500"></svg>
+    </main>
+    
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="script.js"></script>
 </body>
